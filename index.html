@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" type=" x-icon" href="./assets/playstation-fill.png" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sony Playstation | Gaming Port</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+<body>
+  <header>
+    <a href="" class="logo">
+      <img src="./assets/playstation-fill.png" alt="" />
+    </a>
+    <a href="" class="menu">
+      <ion-icon name="apps-outline"></ion-icon>
+    </a>
+    <ul class="nav">
+      <li><a href="#">Playstation hits</a></li>
+      <li><a href="#">Playstation plus</a></li>
+      <li><a href="#">Playstation classic</a></li>
+    </ul>
+    <div class="search">
+      <input type="text" placeholder="search" />
+      <ion-icon name="search-outline"></ion-icon>
+    </div>
+    <!-- For Mobile -->
+    <ul class="nav-collapse">
+      <li><a href="#">Playstation hits</a></li>
+      <li><a href="#">Playstation plus</a></li>
+      <li><a href="#">Playstation classic</a></li>
+    </ul>
+  </header>
+
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+
+      <!-- Diablo -->
+      <div class="swiper-slide">
+      
+        <video autoplay muted loop id="backgroundVideo">
+          <source src="./assets/malthael-diablo-3-reaper-of-souls-moewalls-com.mp4" type="video/mp4">
+        </video>
+
+        <div class="backscene"></div>
+        <div class="banner">
+          <div class="left">
+            <div class="features">
+              <div class="rating">
+                <span class="score">8.9</span>
+                <div class="content">
+                  <span class="subtitle">Blizzard Entertainment, Inc.</span>
+                  <h4>Awesome</h4>
+                  <span>vailable on
+                    PS5
+                    PS4</span>
+                </div>
+              </div>
+              <div class="pricing">
+                <ion-icon name="add-outline"></ion-icon>
+                <div class="content">
+                  <span class="subtitle">Lorem, ipsum dolor.</span>
+                  <h4>Order Now</h4>
+                  <span>Rs 5,599</span>
+                </div>
+              </div>
+            </div>
+            <h1>Diablo</h1>
+          </div>
+
+          <img src="./assets/diablo-character.png" alt="" srcset="" />
+          <div class="right">
+            <ul class="description">
+              <li>
+                <h4><ion-icon name="checkmark-circle-outline"></ion-icon> What is Diablo IV?</h4>
+                <p>All hell breaks loose in this dark, expansive, open-world action RPG.</p>
+              </li>
+              <li>
+                <h4><ion-icon name="checkmark-circle-outline"></ion-icon> Buy Diablo IV on PlayStation Store</h4>
+                <p>Included with Diablo IV Ultimate Edition</p>
+              </li>
+            </ul>
+            <div class="trailer">
+              <h2>Watch Trailer</h2>
+              <iframe
+                id="trailerVideoDiablo"
+                width="930"
+                height="523"
+                src="https://www.youtube.com/embed/HukrLKMCz1I?autoplay=1"
+                title="Diablo IV | Story Launch Trailer"
+                frameborder="0"
+               
+              ></iframe>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- God of War -->
+      <div class="swiper-slide">
+
+        <video autoplay muted loop id="backgroundVideo">
+          <source src="./assets/kratos-and-atreus-god-of-war.1920x1080.mp4" type="video/mp4">
+        </video>
+
+        <div class="backscene" style="background: rgba(255, 0, 0, 0.7);"></div>
+        <div class="banner">
+          <div class="left">
+            <div class="features">
+              <div class="rating">
+                <span class="score">9.9</span>
+                <div class="content">
+                  <span class="subtitle">Sony Interactive Entertainment</span>
+                  <h4>Masterpiece</h4>
+                  <span>vailable on
+                    PS5
+                    PS4</span>
+                </div>
+              </div>
+              <div class="pricing">
+                <ion-icon name="add-outline"></ion-icon>
+                <div class="content">
+                  <span class="subtitle">Lorem, ipsum dolor.</span>
+                  <h4>Order Now</h4>
+                  <span>Rs 3,749
+                    </span>
+                </div>
+              </div>
+            </div>
+            <h1>God <br>Of war</h1>
+          </div>
+          <img src="./assets/god-of-war-character.png" alt="" srcset="" />
+          <div class="right">
+            <ul class="description">
+              <li>
+                <h4><ion-icon name="checkmark-circle-outline"></ion-icon>THE NORSE SAGA CONTINUES</h4>
+                <p>EVERY GREAT ADVENTURE IS A STORY WAITING TO BE TOLD</p>
+              </li>
+              <li>
+                <h4><ion-icon name="checkmark-circle-outline"></ion-icon> AVAILABLE ON PLAYSTATION STORE</h4>
+                <p>Buy God of War Ragnarök</p>
+              </li>
+            </ul>
+            <div class="trailer">
+              <h2>Watch Trailer</h2>
+              <div class="video-wrapper">
+                <iframe
+                  id="trailerVideo"
+                  width="930"
+                  height="523"
+                  src="https://www.youtube.com/embed/hfJ4Km46A-0?autoplay=1"
+                  title="God of War Ragnarök - State of Play Sep 2022 Story Trailer | PS5 &amp; PS4 Games"
+                  frameborder="0"
+                 
+                ></iframe>
+                <div class="play-button-overlay" onclick="playVideo()"></div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Final Fantasy -->
+      <div class="swiper-slide">
+
+        
+        <video autoplay muted loop id="backgroundVideo">
+          <source src="./assets/fade.1920x1080.mp4" type="video/mp4">
+        </video>
+
+        <div class="backscene" style="background: rgba(255, 0, 0, 0.7)"></div>
+        <div class="banner">
+          <div class="left">
+            <div class="features">
+              <div class="rating">
+                <span class="score">9.4</span>
+                <div class="content">
+                  <span class="subtitle">Sony Interactive Entertainment</span>
+                  <h4>Action</h4>
+                  <span>  Available on
+                    PS5</span>
+                </div>
+              </div>
+              <div class="pricing">
+                <ion-icon name="add-outline"></ion-icon>
+                <div class="content">
+                  <span class="subtitle">Lorem, ipsum dolor.</span>
+                  <h4>Order Now</h4>
+                  <span>Rs 4,799</span>
+                </div>
+              </div>
+            </div>
+            <h1>Final <br>Fantasy</h1>
+          </div>
+          <img src="./assets/final-fantasy-character.png" alt="" srcset="" />
+          <div class="right">
+            <ul class="description">
+              <li>
+                <h4><ion-icon name="checkmark-circle-outline"></ion-icon> What is Final Fantasy XVI?</h4>
+                <p>Enter the dark fantasy world of Valisthea in this highly anticipated single-player action RPG.</p>
+              </li>
+              <li>
+                <h4><ion-icon name="checkmark-circle-outline"></ion-icon> Buy Final Fantasy XVI
+                  on PlayStation Store</h4>
+                <p>he first fully-fledged action-RPG in the mainline Final Fantasy series</p>
+              </li>
+            </ul>
+            <div class="trailer">
+              <h2>Watch Trailer</h2>
+              <iframe
+                id="trailerVideoFinalFantasy"
+                width="930"
+                height="523"
+                src="https://www.youtube.com/embed/wvunu2e29tc?autoplay=1"
+                title="Final Fantasy XVI - Revenge Trailer | PS5 Games"
+                frameborder="0"
+               
+              ></iframe>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+
+  
+</script>
+</body>
+</html>
